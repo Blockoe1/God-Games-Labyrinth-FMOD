@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{36760408-5382-4bab-a6e8-c50dd7e73b76}">
 		<property name="name">
-			<value>CooldownExpirePlaceholder</value>
+			<value>DashCooldownPlaceholder</value>
 		</property>
 		<property name="outputFormat">
 			<value>0</value>
