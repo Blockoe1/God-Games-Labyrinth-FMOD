@@ -2,13 +2,13 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{36760408-5382-4bab-a6e8-c50dd7e73b76}">
 		<property name="name">
-			<value>DashCooldownPlaceholder</value>
+			<value>Cooldown</value>
 		</property>
 		<property name="outputFormat">
 			<value>0</value>
 		</property>
 		<relationship name="folder">
-			<destination>{dc22ebca-4725-449c-a7bc-5228d4e49dba}</destination>
+			<destination>{0e9eb54b-5b44-4f69-90b4-b512ecc753ee}</destination>
 		</relationship>
 		<relationship name="mixer">
 			<destination>{445d773d-e600-422a-b8f6-f77fd512ca1f}</destination>
@@ -32,7 +32,7 @@
 			<destination>{caf60aff-dcae-4b4f-8c77-f81e1c97b34e}</destination>
 		</relationship>
 		<relationship name="banks">
-			<destination>{00e70383-6602-44e1-a5d0-c81875f8b24c}</destination>
+			<destination>{631f5287-e7c7-401d-b63e-498db1074557}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixer" id="{445d773d-e600-422a-b8f6-f77fd512ca1f}">
@@ -84,7 +84,7 @@
 	</object>
 	<object class="MultiSound" id="{d026d522-1294-4e22-828b-a0e4aa59b880}">
 		<relationship name="sounds">
-			<destination>{0f11afc7-6651-4ca9-af37-8b2326e8eacf}</destination>
+			<destination>{16c7927e-5613-4c8b-abb4-34f4c2e09274}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusEffectChain" id="{6ab69864-3db6-4e3c-a01a-718594f498e0}">
@@ -99,9 +99,9 @@
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{793fd46d-44e8-4d70-9969-8c5bc1d2b20a}" />
-	<object class="SingleSound" id="{0f11afc7-6651-4ca9-af37-8b2326e8eacf}">
+	<object class="SingleSound" id="{16c7927e-5613-4c8b-abb4-34f4c2e09274}">
 		<relationship name="audioFile">
-			<destination>{24fe5c37-36ed-42b0-9479-0336d2469b91}</destination>
+			<destination>{fc7067c9-d523-46b5-9871-292c1d54e744}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusFader" id="{ac51e8f9-a821-4c87-b9ad-dfe0279cbf73}" />
