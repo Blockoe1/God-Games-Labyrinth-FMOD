@@ -5,7 +5,7 @@
 			<value>AthenaDash</value>
 		</property>
 		<property name="outputFormat">
-			<value>0</value>
+			<value>2</value>
 		</property>
 		<relationship name="folder">
 			<destination>{11f73dfa-d835-45df-8822-157fd7f4a7da}</destination>
@@ -56,7 +56,7 @@
 			<destination>{a844195f-ba1b-4390-848a-b3c76ff7331f}</destination>
 		</relationship>
 		<relationship name="output">
-			<destination>{e44c1cb5-7cf4-4c5a-bd44-3f8560eff1a3}</destination>
+			<destination>{0a069748-8e40-4ef2-9e61-670ef4e69f73}</destination>
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{8a5b0ae4-d0e2-43a8-9171-d8720db354dd}" />
@@ -96,6 +96,7 @@
 	<object class="MixerBusEffectChain" id="{99905fa5-8d24-428b-8ee3-52027c7d2707}">
 		<relationship name="effects">
 			<destination>{bb10c5cf-f8a7-4d58-8915-aca954d1649f}</destination>
+			<destination>{ae0eb64f-adb1-4747-80c6-fd8fe7bb6322}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{e2213263-7993-49c9-bb22-6a8a3480cc2e}" />
@@ -106,4 +107,9 @@
 	</object>
 	<object class="MixerBusFader" id="{35e1b61c-4c86-42cd-8bfb-851d831b3118}" />
 	<object class="MixerBusFader" id="{bb10c5cf-f8a7-4d58-8915-aca954d1649f}" />
+	<object class="SpatialiserEffect" id="{ae0eb64f-adb1-4747-80c6-fd8fe7bb6322}">
+		<property name="distanceRolloffType">
+			<value>4</value>
+		</property>
+	</object>
 </objects>

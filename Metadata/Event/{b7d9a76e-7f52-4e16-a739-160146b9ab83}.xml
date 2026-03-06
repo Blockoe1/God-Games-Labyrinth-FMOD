@@ -5,7 +5,7 @@
 			<value>AthenaShoot</value>
 		</property>
 		<property name="outputFormat">
-			<value>1</value>
+			<value>2</value>
 		</property>
 		<relationship name="folder">
 			<destination>{11f73dfa-d835-45df-8822-157fd7f4a7da}</destination>
@@ -56,7 +56,7 @@
 			<destination>{5f16e093-1ebf-4bad-b3a3-f37bba026c11}</destination>
 		</relationship>
 		<relationship name="output">
-			<destination>{e44c1cb5-7cf4-4c5a-bd44-3f8560eff1a3}</destination>
+			<destination>{0a069748-8e40-4ef2-9e61-670ef4e69f73}</destination>
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{a1396ee0-f95f-432c-bafe-1f291e41945d}" />
@@ -72,6 +72,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{065cafa1-2e1d-481e-b7d1-ffde6b815adb}">
+		<property name="volume">
+			<value>-12</value>
+		</property>
 		<relationship name="effectChain">
 			<destination>{6af33306-3d38-400d-9773-f2c99dd9c369}</destination>
 		</relationship>
@@ -96,6 +99,7 @@
 	<object class="MixerBusEffectChain" id="{6af33306-3d38-400d-9773-f2c99dd9c369}">
 		<relationship name="effects">
 			<destination>{934dcc50-7ef2-4a39-9aef-e61d93c04d9e}</destination>
+			<destination>{df1d5630-7274-40aa-b22f-244f632ec655}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{818902dc-7bd0-48fe-9932-a4f4abe341c8}" />
@@ -106,4 +110,9 @@
 	</object>
 	<object class="MixerBusFader" id="{11669682-ce32-4ebf-be84-1c1c9b469522}" />
 	<object class="MixerBusFader" id="{934dcc50-7ef2-4a39-9aef-e61d93c04d9e}" />
+	<object class="SpatialiserEffect" id="{df1d5630-7274-40aa-b22f-244f632ec655}">
+		<property name="distanceRolloffType">
+			<value>4</value>
+		</property>
+	</object>
 </objects>

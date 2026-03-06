@@ -5,7 +5,7 @@
 			<value>DepositGold</value>
 		</property>
 		<property name="outputFormat">
-			<value>1</value>
+			<value>2</value>
 		</property>
 		<relationship name="folder">
 			<destination>{0e9eb54b-5b44-4f69-90b4-b512ecc753ee}</destination>
@@ -53,7 +53,7 @@
 			<destination>{3c9b7497-bd38-43cd-9658-a24887092d74}</destination>
 		</relationship>
 		<relationship name="output">
-			<destination>{e44c1cb5-7cf4-4c5a-bd44-3f8560eff1a3}</destination>
+			<destination>{0a069748-8e40-4ef2-9e61-670ef4e69f73}</destination>
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{33055527-ab52-414d-8d17-127df112b1f3}" />
@@ -113,6 +113,7 @@
 	<object class="MixerBusEffectChain" id="{f55ed84f-e8a0-4139-96cc-f77a77dcda45}">
 		<relationship name="effects">
 			<destination>{fc9dd3df-5058-4b2d-8f79-543d2e593a59}</destination>
+			<destination>{8b5cbb49-93b3-4d3e-9ac1-c9cf3574bd25}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{a8c85567-2c9a-4736-8005-97eb63d44971}" />
@@ -124,5 +125,10 @@
 	</object>
 	<object class="MixerBusPanner" id="{94d3b9bb-236a-41ca-ac35-c10427fd0f29}" />
 	<object class="MixerBusFader" id="{fc9dd3df-5058-4b2d-8f79-543d2e593a59}" />
+	<object class="SpatialiserEffect" id="{8b5cbb49-93b3-4d3e-9ac1-c9cf3574bd25}">
+		<property name="distanceRolloffType">
+			<value>4</value>
+		</property>
+	</object>
 	<object class="MixerBusFader" id="{a531045a-28f0-42a8-8a1b-78dff3a6b094}" />
 </objects>

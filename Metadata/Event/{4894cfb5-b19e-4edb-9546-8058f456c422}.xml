@@ -5,7 +5,7 @@
 			<value>ZeusShoot</value>
 		</property>
 		<property name="outputFormat">
-			<value>1</value>
+			<value>2</value>
 		</property>
 		<relationship name="folder">
 			<destination>{0e0f8fb5-aa35-4651-8f98-c6ccaa2be1f7}</destination>
@@ -56,7 +56,7 @@
 			<destination>{f260e803-e776-4e35-bd04-f2d4010fc22c}</destination>
 		</relationship>
 		<relationship name="output">
-			<destination>{e44c1cb5-7cf4-4c5a-bd44-3f8560eff1a3}</destination>
+			<destination>{0a069748-8e40-4ef2-9e61-670ef4e69f73}</destination>
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{0d6e4526-1987-4ea5-94e6-c8b5ea5b370b}" />
@@ -72,6 +72,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{b8da1355-e056-4343-b6d9-afca53690694}">
+		<property name="volume">
+			<value>-12</value>
+		</property>
 		<relationship name="effectChain">
 			<destination>{d3c8f962-e39c-476b-9194-b539b2a35eec}</destination>
 		</relationship>
@@ -96,6 +99,7 @@
 	<object class="MixerBusEffectChain" id="{d3c8f962-e39c-476b-9194-b539b2a35eec}">
 		<relationship name="effects">
 			<destination>{18e199e3-c313-4873-96be-7cb5a46722bd}</destination>
+			<destination>{ceb9c502-b806-4362-94a8-12a5f3e2e229}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{839245cd-069f-45ab-a6b0-1e521b047e19}" />
@@ -106,4 +110,9 @@
 	</object>
 	<object class="MixerBusFader" id="{3edb4128-f047-4530-9806-c85b2b3dc076}" />
 	<object class="MixerBusFader" id="{18e199e3-c313-4873-96be-7cb5a46722bd}" />
+	<object class="SpatialiserEffect" id="{ceb9c502-b806-4362-94a8-12a5f3e2e229}">
+		<property name="distanceRolloffType">
+			<value>4</value>
+		</property>
+	</object>
 </objects>

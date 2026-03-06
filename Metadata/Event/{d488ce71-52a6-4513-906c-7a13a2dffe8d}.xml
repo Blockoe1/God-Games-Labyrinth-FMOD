@@ -5,7 +5,7 @@
 			<value>PoseidonDash</value>
 		</property>
 		<property name="outputFormat">
-			<value>0</value>
+			<value>2</value>
 		</property>
 		<relationship name="folder">
 			<destination>{2144077b-4e4f-4c8d-a9b5-793f7513548a}</destination>
@@ -56,7 +56,7 @@
 			<destination>{9b10cfc6-af33-4dd4-aba7-053d21cc5b10}</destination>
 		</relationship>
 		<relationship name="output">
-			<destination>{e44c1cb5-7cf4-4c5a-bd44-3f8560eff1a3}</destination>
+			<destination>{0a069748-8e40-4ef2-9e61-670ef4e69f73}</destination>
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{ee819d4e-ea34-42f6-a286-ba1e6d28e0a6}" />
@@ -96,6 +96,7 @@
 	<object class="MixerBusEffectChain" id="{f5509994-e8a5-4f35-a999-f12f53c6e450}">
 		<relationship name="effects">
 			<destination>{e5e1001c-7e83-4411-b3a9-3e8aafd7af1a}</destination>
+			<destination>{d120559e-886b-4664-9572-9c0d9825f066}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{909c31f2-2260-48dd-9f40-7f9f57ef4a4a}" />
@@ -106,4 +107,9 @@
 	</object>
 	<object class="MixerBusFader" id="{21f3a9c9-7afc-4eea-87ae-85fff6c3962c}" />
 	<object class="MixerBusFader" id="{e5e1001c-7e83-4411-b3a9-3e8aafd7af1a}" />
+	<object class="SpatialiserEffect" id="{d120559e-886b-4664-9572-9c0d9825f066}">
+		<property name="distanceRolloffType">
+			<value>4</value>
+		</property>
+	</object>
 </objects>
