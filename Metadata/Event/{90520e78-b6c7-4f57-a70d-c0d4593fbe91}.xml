@@ -5,7 +5,7 @@
 			<value>CollectGold</value>
 		</property>
 		<property name="outputFormat">
-			<value>1</value>
+			<value>2</value>
 		</property>
 		<relationship name="folder">
 			<destination>{0e9eb54b-5b44-4f69-90b4-b512ecc753ee}</destination>
@@ -56,7 +56,7 @@
 			<destination>{34dc4ceb-136a-4e29-b1e4-7d14c3832b08}</destination>
 		</relationship>
 		<relationship name="output">
-			<destination>{e44c1cb5-7cf4-4c5a-bd44-3f8560eff1a3}</destination>
+			<destination>{0a069748-8e40-4ef2-9e61-670ef4e69f73}</destination>
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{082185bd-747c-4355-a5d7-bd768152cc9f}" />
@@ -72,6 +72,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{ba3f68b8-9abb-4d82-8948-ee15c8771471}">
+		<property name="volume">
+			<value>-20</value>
+		</property>
 		<relationship name="effectChain">
 			<destination>{eafe6d8f-0b8e-4e94-84e5-7c91c17aa795}</destination>
 		</relationship>
@@ -96,6 +99,7 @@
 	<object class="MixerBusEffectChain" id="{eafe6d8f-0b8e-4e94-84e5-7c91c17aa795}">
 		<relationship name="effects">
 			<destination>{88baa4f3-aa0e-4bdd-af5b-62b763fe8de2}</destination>
+			<destination>{6f9759cf-53da-4808-b6e0-4a73927a1423}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{bbeeeabb-0c6c-45b5-8748-7d49d89ab6f9}" />
@@ -106,4 +110,9 @@
 	</object>
 	<object class="MixerBusFader" id="{537d52dd-8ea7-4cfa-a590-fb4493bd53c1}" />
 	<object class="MixerBusFader" id="{88baa4f3-aa0e-4bdd-af5b-62b763fe8de2}" />
+	<object class="SpatialiserEffect" id="{6f9759cf-53da-4808-b6e0-4a73927a1423}">
+		<property name="distanceRolloffType">
+			<value>4</value>
+		</property>
+	</object>
 </objects>

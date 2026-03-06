@@ -5,7 +5,7 @@
 			<value>MinotaurSpawn</value>
 		</property>
 		<property name="outputFormat">
-			<value>0</value>
+			<value>2</value>
 		</property>
 		<relationship name="folder">
 			<destination>{0e9eb54b-5b44-4f69-90b4-b512ecc753ee}</destination>
@@ -50,7 +50,7 @@
 			<destination>{7be4ddbf-91cc-4fee-a124-f9c9465cb1c8}</destination>
 		</relationship>
 		<relationship name="output">
-			<destination>{e44c1cb5-7cf4-4c5a-bd44-3f8560eff1a3}</destination>
+			<destination>{0a069748-8e40-4ef2-9e61-670ef4e69f73}</destination>
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{04b9b8ba-cb72-488d-90c9-9c246fd0265d}" />
@@ -80,9 +80,15 @@
 	<object class="MixerBusEffectChain" id="{52b2d607-b7e7-4e5d-985b-e7c937ecd51a}">
 		<relationship name="effects">
 			<destination>{db3b4722-1b34-4dd6-b0ef-ced029ed044f}</destination>
+			<destination>{610a81fe-83c8-4ddc-804d-8fd749deeb7a}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{f8995af8-257d-4f85-bac7-71353e30d4b2}" />
 	<object class="MixerBusFader" id="{78011500-3b23-48e4-baed-c2bce3ad3a32}" />
 	<object class="MixerBusFader" id="{db3b4722-1b34-4dd6-b0ef-ced029ed044f}" />
+	<object class="SpatialiserEffect" id="{610a81fe-83c8-4ddc-804d-8fd749deeb7a}">
+		<property name="distanceRolloffType">
+			<value>4</value>
+		</property>
+	</object>
 </objects>

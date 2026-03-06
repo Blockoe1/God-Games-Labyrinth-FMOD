@@ -5,7 +5,7 @@
 			<value>AphroditeDash</value>
 		</property>
 		<property name="outputFormat">
-			<value>0</value>
+			<value>2</value>
 		</property>
 		<relationship name="folder">
 			<destination>{c6239ef5-ff6b-4cad-b0f3-4f284576d882}</destination>
@@ -56,7 +56,7 @@
 			<destination>{479d4eea-2402-407f-8e9b-deff4d3b7bc0}</destination>
 		</relationship>
 		<relationship name="output">
-			<destination>{e44c1cb5-7cf4-4c5a-bd44-3f8560eff1a3}</destination>
+			<destination>{0a069748-8e40-4ef2-9e61-670ef4e69f73}</destination>
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{c1a38d0d-5486-4f8f-86ad-8acb38368247}" />
@@ -96,6 +96,7 @@
 	<object class="MixerBusEffectChain" id="{38519265-a0f9-43f6-b36e-690a3c7543bf}">
 		<relationship name="effects">
 			<destination>{a0cd0e8e-36fc-4c44-bd3c-51ffed6bbfce}</destination>
+			<destination>{fe0f64db-a5e0-4c12-af9c-38697eb30796}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{ff064e78-b691-4e54-aa39-0f7a96b453c5}" />
@@ -106,4 +107,9 @@
 	</object>
 	<object class="MixerBusFader" id="{a54fd49a-16e4-4a89-9e28-1f375c2656b0}" />
 	<object class="MixerBusFader" id="{a0cd0e8e-36fc-4c44-bd3c-51ffed6bbfce}" />
+	<object class="SpatialiserEffect" id="{fe0f64db-a5e0-4c12-af9c-38697eb30796}">
+		<property name="distanceRolloffType">
+			<value>4</value>
+		</property>
+	</object>
 </objects>
