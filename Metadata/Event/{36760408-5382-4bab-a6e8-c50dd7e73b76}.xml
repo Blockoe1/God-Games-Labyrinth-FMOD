@@ -75,6 +75,9 @@
 		<property name="volume">
 			<value>-7</value>
 		</property>
+		<property name="pitch">
+			<value>1.20000005</value>
+		</property>
 		<relationship name="effectChain">
 			<destination>{0a891d55-7335-4679-9dcd-28ec22765556}</destination>
 		</relationship>
@@ -104,6 +107,9 @@
 	</object>
 	<object class="MixerBusPanner" id="{793fd46d-44e8-4d70-9969-8c5bc1d2b20a}" />
 	<object class="SingleSound" id="{16c7927e-5613-4c8b-abb4-34f4c2e09274}">
+		<property name="volume">
+			<value>-11</value>
+		</property>
 		<relationship name="audioFile">
 			<destination>{fc7067c9-d523-46b5-9871-292c1d54e744}</destination>
 		</relationship>
