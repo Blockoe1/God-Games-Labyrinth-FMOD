@@ -132,6 +132,9 @@
 		<relationship name="modulators">
 			<destination>{a328dad2-3db7-4042-9ce5-66480c979194}</destination>
 		</relationship>
+		<relationship name="parameters">
+			<destination>{f0200ef8-f2d4-4554-8cea-df91ccd7f60a}</destination>
+		</relationship>
 		<relationship name="event">
 			<destination>{5860a825-b244-4f5d-a2e6-55fa9929c62b}</destination>
 		</relationship>
@@ -189,6 +192,11 @@
 		<property name="finalValue">
 			<value>-80</value>
 		</property>
+	</object>
+	<object class="ParameterProperty" id="{f0200ef8-f2d4-4554-8cea-df91ccd7f60a}">
+		<relationship name="parameter">
+			<destination>{8b48b1d5-ca74-462a-91ac-39f133223f52}</destination>
+		</relationship>
 	</object>
 	<object class="MixerBusEffectChain" id="{0b02ecb6-1dc6-4ca4-985e-f32d8aa145f9}">
 		<relationship name="effects">

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="AudioFile" id="{fbb9e6cf-d2e3-44ed-9697-cb1f5a6bcf50}">
+		<property name="assetPath">
+			<value>Music/Athena.mp3</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>7.0530612244897961</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{5783cfdd-8a5c-4ee4-979e-c3da59eafd10}</destination>
+		</relationship>
+	</object>
+</objects>
