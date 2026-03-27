@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="ParameterPreset" id="{c1ff038f-c294-4e5e-8238-b2004b63f01b}">
+		<property name="name">
+			<value>victor</value>
+		</property>
+		<relationship name="folder">
+			<destination>{d8b56e95-4512-482e-be2e-889f0ae575a1}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{c7c0d0e3-1cab-464a-8212-d8a25f5847ee}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{c7c0d0e3-1cab-464a-8212-d8a25f5847ee}">
+		<property name="parameterType">
+			<value>2</value>
+		</property>
+		<property name="maximum">
+			<value>5</value>
+		</property>
+		<property name="enumerationLabels">
+			<value>Zeus</value>
+			<value>Poseidon</value>
+			<value>Athena</value>
+			<value>Aphrodite</value>
+			<value>Minotaur</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>
